@@ -8754,7 +8754,8 @@ h1, h2, h3, h4, h5,
     .btn.btn-white.btn-outline-white {
       border: 1px solid rgba(255, 255, 255, 0.5) !important;
       background: transparent !important;
-      color: #fff !important; }
+      color: #fff !important; 
+      margin-top: 15px}
       .btn.btn-white.btn-outline-white:hover {
         border: 1px solid transparent;
         background: #ffbd39;
@@ -8804,16 +8805,24 @@ h1, h2, h3, h4, h5,
   -ms-border-radius: 5px;
   border-radius: 5px; }
   .resume-wrap .date {
-    font-weight: 900;
-    font-size: 26px;
-    color: #ffbd39; }
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffbd39; 
+    float: right;}
   .resume-wrap h2 {
-    font-size: 26px; }
+    font-size: 26px; 
+    /* display: inline-block; */
+  }
+  .resume-wrap h1 {
+    font-size: 20px; 
+    float: right;
+  }
   .resume-wrap .position {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 3px;
-    text-transform: uppercase; }
+    text-transform: uppercase; 
+    }
 
 .services-1 {
   margin-bottom: 40px;
